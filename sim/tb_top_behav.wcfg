@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject db_ref_id="1" fp_name="/tb_top/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_top/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_top/wr_ports_enable[0]" type="logic">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">wr_ports_enable[0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_top/address_wr" type="array">
+      <obj_property name="ElementShortName">address_wr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address_wr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_top/data_wr" type="array">
+      <obj_property name="ElementShortName">data_wr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_wr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_top/rd_ports_enable" type="logic">
+      <obj_property name="ElementShortName">rd_ports_enable</obj_property>
+      <obj_property name="ObjectShortName">rd_ports_enable</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_top/address_rd" type="array">
+      <obj_property name="ElementShortName">address_rd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address_rd[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_top/data_rd_cm" type="array">
+      <obj_property name="ElementShortName">data_rd_cm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rd_cm[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_top/data_rd_sam" type="array">
+      <obj_property name="ElementShortName">data_rd_sam[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rd_sam[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
